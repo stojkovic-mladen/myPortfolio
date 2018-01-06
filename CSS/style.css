@@ -3,23 +3,34 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background: url(https://image.ibb.co/grmbwb/daske.jpg) no-repeat center center fixed;
+  background: url(https://image.ibb.co/grmbwb/daske.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+h2 {
+  color: Azure;
+}
+
 .jumbotron {
+    height: 1000px;
+    padding-top: 100px;
     margin-bottom: 20px;
-    background: url(http://www.telegraph.co.uk/content/dam/news/predictions/2017-predictions-earth.jpg?imwidth=1400) no-repeat center center fixed;
+    background: url(http://wallpaperstock.net/sunrise-above-fluffy-clouds_wallpapers_48453_1920x1080.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: white;
+    color: Azure;
     text-shadow: 4px 4px 10px grey;
+    border-bottom: solid;
+    border-color: grey;
 }
+
 .row {
     text-shadow: 4px 4px 10px black;
      -webkit-text-stroke: 1px black;
@@ -31,8 +42,20 @@ body {
     padding: 15px;
     border-radius: 55px 15px 55px 15px;
     }
-h2 {
-  color: Azure;
+
+/* NAVBAR */
+nav {
+  font-weight: bold;
+}
+#navbar-brand {
+    border-radius: 5px 55px 5px 55px;
+    width: 100px;
+    height: 80px;
+}
+#navbarNav {
+  color: black;
+  font-size: 30px;
+  text-shadow: 0 0 15px white,  0 0 15px azure;
 }
 /* TEST */
 /* NASLOV */
