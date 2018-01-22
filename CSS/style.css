@@ -57,5 +57,36 @@ nav {
   font-size: 30px;
   text-shadow: 0 0 15px white,  0 0 15px azure;
 }
+.animated {
+   visibility: visible;
+}
+#section1{
+  animation-delay:2s;
+  -webkit-animation-duration: 1s;
+  animation-iteration-count: 1s;
+
+}
+#section2 {
+  animation-delay:3s;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: 1s;
+}
+#section3 {
+  animation-delay:4s;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: 1s;
+}
+#section4 {
+  animation-delay:5s;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: 1s;
+}
+.map  {
+  width: 400px;
+  height: 50%;
+  margin: 40px 40px 40px 40px;
+  float: right;
+
+}
 /* TEST */
 /* NASLOV */
